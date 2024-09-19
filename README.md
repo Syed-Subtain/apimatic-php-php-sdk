@@ -10,23 +10,23 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "sdks-io/apimatic-php-sdk:3.2.2"
+composer require "sdks-io/apimatic-php-sdk:2.2.2"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "sdks-io/apimatic-php-sdk": "3.2.2"
+    "sdks-io/apimatic-php-sdk": "2.2.2"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/sdks-io/apimatic-php-sdk#3.2.2
+https://packagist.org/packages/sdks-io/apimatic-php-sdk#2.2.2
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/3.2.2/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.2.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -53,11 +53,11 @@ $client = ApimaticCalcuClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/3.2.2/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.2.2/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/3.2.2/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/3.2.2/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/3.2.2/doc/http-response.md)
+* [ApiException](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.2.2/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.2.2/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.2.2/doc/http-response.md)
 
