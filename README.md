@@ -9,24 +9,24 @@ Simple calculator API hosted on APIMATIC
 
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
-```php
-composer require "sdks-io/apimatic-php-sdk:2.32.32"
+```bash
+composer require "sdks-io/apimatic-php-sdk:1.2.3"
 ```
 
 Or add it to the composer.json file manually as given below:
 
-```php
+```json
 "require": {
-    "sdks-io/apimatic-php-sdk": "2.32.32"
+    "sdks-io/apimatic-php-sdk": "1.2.3"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/sdks-io/apimatic-php-sdk#2.32.32
+https://packagist.org/packages/sdks-io/apimatic-php-sdk#1.2.3
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.32.32/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/1.2.3/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -53,11 +53,13 @@ $client = ApimaticCalculatorClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.32.32/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/1.2.3/doc/controllers/simple-calculator.md)
 
-## Classes Documentation
+## Additional Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.32.32/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.32.32/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/2.32.32/doc/http-response.md)
+### Wrappers
+
+* [ApiException](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/1.2.3/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/1.2.3/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/apimatic-php-php-sdk/tree/1.2.3/doc/http-response.md)
 
